@@ -84,12 +84,49 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="星星里">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="一、准备软件依次下载一下软件即可（过程略）
+
+
+node.js
+Git
+
+
+二、配置SSH Keys首先我们需要检查你电脑上现有的ssh key：
+1$ cd .ssh
+如果提示：No such file or directory 说明你是第一次使用git。
+三、生成新的SSH Key：1$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;
+注">
+<meta property="og:type" content="article">
+<meta property="og:title" content="李星星github个人博客搭建过程">
+<meta property="og:url" content="http://yoursite.com/2016/10/26/my-github/index.html">
 <meta property="og:site_name" content="星星里">
+<meta property="og:description" content="一、准备软件依次下载一下软件即可（过程略）
+
+
+node.js
+Git
+
+
+二、配置SSH Keys首先我们需要检查你电脑上现有的ssh key：
+1$ cd .ssh
+如果提示：No such file or directory 说明你是第一次使用git。
+三、生成新的SSH Key：1$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;
+注">
+<meta property="og:updated_time" content="2016-10-26T15:30:22.833Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="星星里">
+<meta name="twitter:title" content="李星星github个人博客搭建过程">
+<meta name="twitter:description" content="一、准备软件依次下载一下软件即可（过程略）
+
+
+node.js
+Git
+
+
+二、配置SSH Keys首先我们需要检查你电脑上现有的ssh key：
+1$ cd .ssh
+如果提示：No such file or directory 说明你是第一次使用git。
+三、生成新的SSH Key：1$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;
+注">
 
 
 
@@ -107,7 +144,7 @@
   };
 </script>
 
-  <title> 星星里 </title>
+  <title> 李星星github个人博客搭建过程 | 星星里 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -128,9 +165,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,9 +242,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -229,10 +264,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/26/my-github/" itemprop="url">
-                  李星星github个人博客搭建过程
-                </a>
+                李星星github个人博客搭建过程
               
             
           </h1>
@@ -272,9 +304,7 @@
       
 
       
-        
-          
-            <h2 id="一、准备软件"><a href="#一、准备软件" class="headerlink" title="一、准备软件"></a>一、准备软件</h2><p>依次下载一下软件即可（过程略）</p>
+        <h2 id="一、准备软件"><a href="#一、准备软件" class="headerlink" title="一、准备软件"></a>一、准备软件</h2><p>依次下载一下软件即可（过程略）</p>
 <blockquote>
 <ul>
 <li><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></li>
@@ -299,16 +329,19 @@
 <p> 版本信息查看：<code>git --version</code> <code>npm --version</code></p>
 </blockquote>
 
-          
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -319,16 +352,15 @@
 
       
       
-        <div class="post-eof"></div>
-      
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -336,6 +368,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -355,8 +391,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -392,6 +437,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、准备软件"><span class="nav-number">1.</span> <span class="nav-text">一、准备软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、配置SSH-Keys"><span class="nav-number">2.</span> <span class="nav-text">二、配置SSH Keys</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、生成新的SSH-Key："><span class="nav-number">3.</span> <span class="nav-text">三、生成新的SSH Key：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、添加SSH-Keys到github"><span class="nav-number">4.</span> <span class="nav-text">四、添加SSH Keys到github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、克隆网站到本地"><span class="nav-number">5.</span> <span class="nav-text">五、克隆网站到本地</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六、总结"><span class="nav-number">6.</span> <span class="nav-text">六、总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#【附录】"><span class="nav-number">7.</span> <span class="nav-text">【附录】</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -495,6 +551,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
